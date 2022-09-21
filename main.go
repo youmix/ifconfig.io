@@ -29,7 +29,7 @@ type Configuration struct {
 var configuration = Configuration{}
 
 func init() {
-	hostname := getEnvWithDefault("HOSTNAME", "ifconfig.io")
+	hostname := getEnvWithDefault("HOSTNAME", "you-ip.cc")
 
 	host := getEnvWithDefault("HOST", "")
 	port := getEnvWithDefault("PORT", "8080")
